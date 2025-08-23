@@ -1,13 +1,13 @@
 # estrutura-acesso-linux
-DIO Bootcamp trabalho prático de Infraestrutura como Código para automotizar a criação de grupos, usuários e permissões. 
+DIO Bootcamp, trabalho prático de Infraestrutura como Código para automotizar a criação de grupos, usuários e permissões dentro de sistemas Linux. 
 
 # Script de Provisionamento Linux
 
-Este projeto tem como função automatizar a criação de uma estrutura de usuários, grupos, diretórios e permissões em sistemas Linux, utilizando um script Bash. 
+Este projeto tem como função automatizar a criação de uma estrutura de usuários, grupos, diretórios e permissões em sistemas Linux, utilizando um script Bash simples. 
 
 ## Pré-requisitos
 
-- Distribuição Linux compatível (Ubuntu, Debian, etc.)
+- Linux compatível (Ubuntu, Debian, etc.)
 - Acesso root
 - Bash instalado
 
@@ -39,9 +39,9 @@ Este projeto tem como função automatizar a criação de uma estrutura de usuá
 git clone https://github.com/bruno-DAM/estrutura-acesso-linux
 cd estrutura-acesso-linux
 
-# Torne o script executável
-chmod +x script.sh
+# Torne script executável
+chmod +x criar_user_dir_grp.sh
 
 # Execute como root
-sudo ./script.sh
+sudo ./criar_user_dir_grp.sh
 
