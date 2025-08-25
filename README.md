@@ -37,7 +37,6 @@ Este projeto tem como função automatizar a criação de uma estrutura de usuá
 ```bash
 # Clone o repositório
 git clone https://github.com/bruno-DAM/estrutura-acesso-linux
-cd estrutura-acesso-linux
 
 # Torne script executável
 chmod +x criar_user_dir_grp.sh
